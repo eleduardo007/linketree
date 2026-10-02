@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Contatos</title>
-    <link rel="shortcut icon" href="/sun.png" type="image/png">
+    <link rel="shortcut icon" href="sun.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -25,14 +25,26 @@
     alt="Minha Fota">
     <br>
 <!--Foto de Perfil-->
-    <a class="menu" onclick="abrirSobreMim()">Sobre mim</a>
+    <a class="menu" onclick="mostrarSobreMim()">Sobre mim</a>
 
-    <p>
+    <p id="sobre-mim">
         Este é um texto demonstrativo sobre mim.
-        Aqui você poderá colocar sua descrição pessoal.
+        Aqui eu colocarei em breve minha descrição pessoal.
     </p>
     <a class="menu">Contatos</a>
-<!---->
+
+<!--Java Script com função de abrir o texto-->
+    <script>
+        function mostrarSobreMim() {
+            const caixa = document.getElementById("sobre-mim");
+
+            if (caixa.style.display ==="none") {
+                caixa.style.display = "block";
+            } else {
+                caixa.style.display = "none";
+            }
+        }
+    </script>
         <div class="cloud x1"></div>
         <div class="cloud x2"></div>
         <div class="cloud x3"></div>
