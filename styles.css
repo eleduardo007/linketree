@@ -146,3 +146,28 @@ body {
 #contatos .carousel-item:nth-child(3) i {
     color: orangered;
 }
+
+
+#sobre-mim {
+    display: none;
+    white-space: pre-line;
+    text-align: left;
+    max-width: 1000px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+#sobre-mim::after{
+    content: "|";
+    animation: piscar 0.7s infinite;
+}
+
+@keyframes piscar {
+    0%, 50%{
+        opacity: 1;
+    }
+
+    51%, 100% {
+        opacity: 0;
+    }
+}
