@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Contatos</title>
     <link rel="shortcut icon" href="sun.png" type="image/png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-
 </head>
+
+
 <body>
-<div id="clouds">
-    <h1>Eduardo Luís</h1>
-    <div class="title">
-        <h2>Aspirante a Desenvolvedor de Software</h2>
-        <img 
-        id="sign" 
-        src="sign.png" 
-        alt="sign">
-    </div>
-<!--Título e imagem-->
-    <img 
-    id="foto" 
-    src="https://media.licdn.com/dms/image/v2/D4E03AQH-Jpho5F6MyQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724428473926?e=2147483647&v=beta&t=1NnHuWi4QjmHBmRHwjwfac7Wjk1ovDB6c1zLmnay8SI" 
-    alt="Minha Fota">
-    <br>
-<!--Foto de Perfil-->
-    <a class="menu" onclick="mostrarSobreMim()">Sobre mim</a>
+    <main>
+        <div id="clouds">
+            <h1>Eduardo Luís</h1>
+            <div class="title">
+                <h2>Aspirante a Desenvolvedor de Software</h2>
+                <img id="sign" src="sign.png" alt="sign">
+            </div>
+            <!--Título e imagem-->
+            <img id="foto"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQH-Jpho5F6MyQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724428473926?e=2147483647&v=beta&t=1NnHuWi4QjmHBmRHwjwfac7Wjk1ovDB6c1zLmnay8SI"
+                alt="Minha Fota">
 
-    <p id="sobre-mim">
-        Este é um texto demonstrativo sobre mim.
-        Aqui eu colocarei em breve minha descrição pessoal.
-    </p>
-    <!--Botão Sobre Mim-->
+            <br>
+            <!--Foto de Perfil-->
 
-    <a class="menu" onclick="mostrarContatos()">Contatos</a>
+            <a class="menu" onclick="mostrarSobreMim()">Sobre mim</a>
 
-    <div id="contatos" style="display: none;">
-        <div id="carouselContatos" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-inner">
+            <p id="sobre-mim">
+                Olá! Prazer em conhecer; ;D Meu nome é Eduardo Luís.
 
-                <!--WhatsApp -->
-                <div class="carousel-item active">
-                    <a href="https://wa.me/5535984774597?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20mais%20vossa%20divindade%2C%20Eduardo-sama." target="_blank">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-                </div>
-                <!--Linkedin-->
-                <div class="carousel-item">
-                    <a href="https://www.linkedin.com/in/eduardo-luís-figueiredo-007727289" target="_blank">
-                        <i class="bi bi-linkedin"></i>                        
-                    </a>
-                </div>
-                <!--GitHub-->
-                <div class="carousel-item">
-                    <a href="https://github.com/eleduardo007" target="_blank">
-                        <i class="bi bi-github"></i>
-                    </a>
+                Trabalho com Tecnologia da Informação e Desenvolvimento de Software, explorando também outras áreas que fazem parte do meu lado criativo, como escrita e ilustração digital.
+
+                Tenho bastante interesse por tudo que envolve criatividade e criação de mundos. Gosto de desenvolver narrativas, explorar universos de RPG, criar personagens e ideias, além de me aventurar em diferentes projetos que misturam tecnologia e imaginação.
+
+                Fora do mundo digital, também gosto de atividades ao ar livre, buscando novas experiências e inspirações.
+
+                Se você gosta de tecnologia, histórias, arte e criação, fique à vontade para conhecer um pouco mais do meu trabalho. Quem sabe você não encontra algo que desperte a sua curiosidade?
+            </p>
+            <!--Botão Sobre Mim-->
+
+            <a class="menu" onclick="mostrarContatos()">Contatos</a>
+
+            <div id="contatos" style="display: none;">
+                <div id="carouselContatos" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+
+                        <!--WhatsApp -->
+                        <div class="carousel-item active">
+                            <a href="https://wa.me/5535984774597?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20mais%20vossa%20divindade%2C%20Eduardo-sama."
+                                target="_blank">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </div>
+                        <!--Linkedin-->
+                        <div class="carousel-item">
+                            <a href="https://www.linkedin.com/in/eduardo-luís-figueiredo-007727289" target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <!--GitHub-->
+                        <div class="carousel-item">
+                            <a href="https://github.com/eleduardo007" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Botão anterior-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselContatos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <!--Botão próximo-->
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselContatos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
                 </div>
             </div>
+            <!--Botão com carrosel-->
+            <script>
+                function mostrarSobreMim() {
+                    const caixa = document.getElementById("sobre-mim");
 
-            <!--Botão anterior-->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselContatos" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <!--Botão próximo-->
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselContatos" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="visually-hidden">Próximo</span>
-            </button>
+                    if (caixa.style.display === "none") {
+                        caixa.style.display = "block";
+                    } else {
+                        caixa.style.display = "none";
+                    }
+                }
+
+                function mostrarContatos() {
+                    const contatos = document.getElementById("contatos");
+
+                    if (contatos.style.display === "none") {
+                        contatos.style.display = "block";
+                    } else {
+                        contatos.style.display = "none";
+                    }
+                }
+            </script>
+            <!--Java Script com função de abrir o texto-->
+            <div class="cloud x1"></div>
+            <div class="cloud x2"></div>
+            <div class="cloud x3"></div>
+            <div class="cloud x4"></div>
+            <div class="cloud x5"></div>
         </div>
-    </div>
-    <!--Botão com carrosel-->
-    <script>
-        function mostrarSobreMim() {
-            const caixa = document.getElementById("sobre-mim");
-
-            if (caixa.style.display ==="none") {
-                caixa.style.display = "block";
-            } else {
-                caixa.style.display = "none";
-            }
-        }
-
-        function mostrarContatos() {
-            const contatos = document.getElementById("contatos");
-
-            if (contatos.style.display ==="none") {
-                contatos.style.display = "block";
-            } else {
-                contatos.style.display = "none";
-            }
-        }
-    </script>
-    <!--Java Script com função de abrir o texto-->
-        <div class="cloud x1"></div>
-        <div class="cloud x2"></div>
-        <div class="cloud x3"></div>
-        <div class="cloud x4"></div>
-        <div class="cloud x5"></div>
-</div>
+    </main>
 </body>
+
 </html>
