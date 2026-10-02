@@ -50,3 +50,18 @@ body {
 #sobre-mim{
     display: none
 }
+
+#contatos i {
+    font-size: 80px;
+}
+
+#contatos .carousel-item:nth-child(1) i {
+    color: green;
+}
+
+#contatos .carousel-item:nth-child(2) i {
+}
+
+#contatos .carousel-item:nth-child(3) i {
+    color: orangered;
+}
