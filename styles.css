@@ -59,9 +59,6 @@ body {
     color: green;
 }
 
-#contatos .carousel-item:nth-child(2) i {
-}
-
 #contatos .carousel-item:nth-child(3) i {
     color: orangered;
 }
