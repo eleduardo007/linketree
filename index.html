@@ -20,7 +20,7 @@
 <body>
     <main>
         <div id="clouds">
-            <h1>Eduardo Luís</h1>
+            <h1 id="nomeproprio">Eduardo Luís</h1>
             <div class="title">
                 <h2>Aspirante a Desenvolvedor de Software</h2>
                 <img id="sign" src="sign.png" alt="sign">
@@ -77,7 +77,15 @@
                     </button>
                 </div>
             </div>
+            <button style="width: 100px; height: 100px;" onclick="ativar()">Cor Randomica</button>
             <!--Botão com carrosel-->
+            <script>
+                function ativar() {
+            alert("Cor do nome alterado.");
+            const cor = `#${Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0')}`;
+            document.getElementById("nomeproprio").style.color = cor;
+            }
+            </script>
             <!--Java Script com função de abrir o texto-->
             <div class="cloud x1"></div>
             <div class="cloud x2"></div>
