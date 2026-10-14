@@ -58,9 +58,3 @@ function mostrarContatos() {
         contatos.style.display = "none";
     }
 }
-
-function ativar() {
-    alert("Cor do nome alterado.");
-    const cor = `#${Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0')}`;
-    document.getElementById("nomeproprio").style.color = cor;
-    }
